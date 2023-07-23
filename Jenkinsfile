@@ -6,5 +6,6 @@ pipeline {
       steps {
         sh 'echo "My name is something"'
       }
+    }
   }
 }
