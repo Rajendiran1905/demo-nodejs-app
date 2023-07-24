@@ -3,11 +3,11 @@ pipeline {
 
   stages {
     stage("print something") {
-      steps {
-        input {
+      input {
           message 'Should i continue'
           ok 'Proceed'
-        }
+      }
+      steps {
         sh 'echo "My name is something"'
       }
     }
