@@ -5,8 +5,8 @@ pipeline {
     stage("print something") {
       steps {
         input {
-          message: 'Should i continue'
-          ok: 'Proceed'
+          message 'Should i continue'
+          ok 'Proceed'
         }
         sh 'echo "My name is something"'
       }
