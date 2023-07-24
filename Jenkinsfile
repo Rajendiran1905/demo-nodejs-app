@@ -9,6 +9,7 @@ pipeline {
       }
       steps {
         sh 'echo "My name is something"'
+        echo '${TAG_NAME} tag name'
       }
     }
   }
